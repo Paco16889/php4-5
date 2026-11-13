@@ -1,0 +1,13 @@
+ body { padding: 10px; font-family: sans-serif; font-size: 18px;}
+    table { border-collapse: collapse; float: left; margin-right: 25px; font-size: 14px; }
+    th { color: #039; padding: 8px; border-bottom: 2px solid #6678b1; }
+    td { color: #669; padding: 6px 8px; border-bottom: 1px solid #ccc; }
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+    input{
+        padding: 8px;
+        border-radius: 3px;
+    }
+    #filter label { margin-bottom: 8px; }

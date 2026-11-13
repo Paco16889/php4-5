@@ -1,0 +1,39 @@
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+caption{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+td, th {
+    border: 1px solid black;
+    text-align: center;
+    padding: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 300px;
+}
+
+form label {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+form input,
+form textarea,
+form select {
+    padding: 8px;
+}
+
+.volverLista{
+    padding: 8px;
+    margin: 8px;
+}
